@@ -14,11 +14,11 @@ public class PlayerController : MonoBehaviour {
 	[Range(10, 2000)]
 	public int Accuracy = 400;
 
-	[Range(0, Mathf.Infinity)]
+	[Range(0, 20)]
 	public float Distance = 9f;
 
-	[Range(0, 360)]
-	public float FOV = 0;
+	[Range(10, 360)]
+	public float FOV = 50;
 
 	// The MeshFilter the FOV mesh is loaded into.
 	public MeshFilter VMeshFilter;
